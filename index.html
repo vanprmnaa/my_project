@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>"
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fs-4 fw-bold" href="#">Portgas D. Pohang</a>
+            <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggle-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav"> 
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">Work</a>
+                </li> <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="home container">
+        <div class="row d-flex align-items-center">
+            <div class="col-8">
+                <h3 class="fw-semibold">Hi! I am</h3>
+                <h1 class="fw-bold">Portgas D. Pohang</h1>
+                <p>I am Sofware Engineer based in Indonesia</p>
+                <a class="btn button" href="images/potrait.png" download>Resume</a>
+            </div>
+            <div class="col-4">
+                <img class="rounded-circle" src="images/potrait.png" alt="potrait">
+            </div>
+        </div>
+        <div class="arrow w-100 d-flex align-items-center flex-column mt-5">
+            <a class="text-decoration-none text-dark" href="#about">More info</a>
+            <img id="arrow" src="images/arrow.svg" alt="arrow icon">
+        </div>
+    </section>
+    <section id="About" class="about container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A blanditiis enim ea vel itaque doloribus rerum repudiandae molestias impedit, iste repellendus nobis provident molestiae officiis alias nam veritatis culpa voluptate rem deleniti hic doloribus quas!</p>
+        <div class="About-exp">
+            <div class="About-exp-item">
+                <div class="About-exp-item-header">
+                    <div>
+                        <h5>Sofware Angineer</h5>
+                        <p>Coding Studio Gaming</p>
+                    </div>
+                    <button class="btn button" onclick="toggleDetail(event)">More info</button>
+                </div>
+                <p class="About-exp-item-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor quasi numquam tempora ipsam a maxime consequuntur aut voluptatibus.</p>
+            </div>
+            </div>
+    <div class="About-exp">
+        <div class="About-exp-item">
+            <div class="About-exp-item-header">
+                <div>
+                    <h5>Sofware Angineer</h5>
+                    <p>Coding Studio Gaming</p>
+                </div>
+                <button class="btn button" onclick="toggleDetail(event)">More info</button>
+            </div>
+            <p class="About-exp-item-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor quasi numquam tempora ipsam a maxime consequuntur aut voluptatibus.</p>
+        </div>
+    </div>
+        <div class="About-exp">
+            <div class="About-exp-item">
+                <div class="About-exp-item-header">
+                    <div>
+                        <h5>Software Angineer</h5>
+                        <p>Coding Studio Gaming</p>
+                    </div>
+                    <button class="btn button" onclick="toggleDetail(event)">More info</button>
+                </div>
+                <p class="About-exp-item-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor quasi numquam tempora ipsam a maxime consequuntur aut voluptatibus.</p>
+            </div>
+        </div>
+        <div class="About-exp">
+            <div class="About-exp-item">
+                <div class="About-exp-item-header">
+                    <div>
+                        <h5>Software Angineer</h5>
+                        <p>Coding Studio Gaming</p>
+                    </div>
+                    <button class="btn button" onclick="toggleDetail(event)">More info</button>
+                </div>
+                <p class="About-exp-item-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor quasi numquam tempora ipsam a maxime consequuntur aut voluptatibus.</p>
+            </div>
+        </div>
+    </section>
+    <section id="work" class="work container">
+        <div class="row d-flex align-items-center gap-5">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ab laudantium illo eligendi eum, esse nam commodi laboriosam voluptate odit assumenda delectus nostrum tenetur vitae totam amet quaerat accusamus. Ipsum!</p>
+            </div>
+         <div class="col work-img">  
+            <div id="work-1" class="work-img-item">
+               <img src="images/work-1.png" alt="work-1">
+            </div>
+            <div id="work-2" class="work-img-item">
+                <img src="images/work-2.png" alt="work-2"> 
+            </div>
+            <div id="work-3" class="work-img-item">
+                <img src="images/work-3.png" alt="work-3">
+            </div>
+        </div>
+        </div> 
+    </section>
+    <section id="contact" class="contact container">
+       <div class= "row d-flex align-items-center gap-5">
+        <dvi class="col">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora quibusdam nemo unde, vero voluptas at minima eveniet sunt laborum possimus impedit enim sit quos deleniti quis recusandae sed pariatur. Possimus?</p>
+            <div class="row">
+                <div class="col d-flex align-items-center">
+                    <img src="images/facebook.svg" alt="fb icon">
+                    <p>Revan Permana</p>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <img src="images/instagram.svg.svg" alt="instagram icon">
+                    <p>@axyrvnknf_</p>
+                </div>
+                <div class="col d-flex align-items-center">
+                    <img src="images/twitter.svg" alt="twitter icon">
+                    <p>@axyrvnknf</p>
+                </div>
+            </div>
+        </dvi>
+        <div class="col">
+            <form class="contact-form" onsubmit="onFormSubmit(event)">
+                <div class="mb-3">
+                    <label for="inp_email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="inp_email" placeholder="example@email.com">
+                </div>
+                <div class="mb-3">
+                    <label for="inp_subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control"id="inp_subject" placeholder="Your Subject">
+                </div>
+                <div class="mb-3">
+                    <label for="inp_message" class="form-label">Message</label>
+                    <input type="text" class="form-control" id="inp_message" placeholder="Your message">
+                </div>
+                <div class="d-flex justify-content-center mt-5">
+                    <button type="submit" class="btn button">Submit</button> 
+                </div>
+            </form>
+        </div>
+       </div>
+    </section>
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
